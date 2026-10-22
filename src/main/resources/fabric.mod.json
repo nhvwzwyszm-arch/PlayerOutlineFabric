@@ -1,0 +1,19 @@
+
+{
+  "schemaVersion": 1,
+  "id": "player_outline",
+  "version": "${version}",
+  "name": "Player Outline (Red, Visible Only)",
+  "description": "Client-side red outline for other players that are currently visible without block occlusion.",
+  "authors": ["OpenAI"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.playeroutline.PlayerOutlineClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "=1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
